@@ -1,0 +1,44 @@
+[
+  {
+    "name": "_shibsession_64656661756c7468747470733a2f2f7777772e756d6173732e6564752f73686962626f6c657468",
+    "value": "_259ec99fa09aafddaf575b26a2acc1f8",
+    "domain": ".www.umass.edu",
+    "path": "/",
+    "expires": -1,
+    "size": 124,
+    "httpOnly": true,
+    "secure": false,
+    "session": true,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  },
+  {
+    "name": "TS01a5dec6",
+    "value": "017110ef2a3b967608182ea0111971cd6822ecd75412e709a670d9203ece948194227e7534a720a60d4d26c30bccb4fff2493f3c02",
+    "domain": ".www.umass.edu",
+    "path": "/",
+    "expires": -1,
+    "size": 116,
+    "httpOnly": false,
+    "secure": false,
+    "session": true,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  },
+  {
+    "name": "BIGipServer~www.umass.edu~varnish-2.www.umass.edu.http_pool",
+    "value": "!toX6DBmCWstB7jMPGaAm+5qJr8uyqJ1K0wJclAzbzjHIL+6MUqcml3DdZ0Qss3zjccyjQsLnSUWCsw==",
+    "domain": ".www.umass.edu",
+    "path": "/",
+    "expires": -1,
+    "size": 140,
+    "httpOnly": true,
+    "secure": true,
+    "session": true,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  }
+]
