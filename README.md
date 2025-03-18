@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# FoundU - Lost UCard Finder App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+FoundU is a full-stack mobile application designed to help recover lost university identification cards (UCards) for students. The app enables users to take a photo of a found UCard, automatically detect the student's name using Google Vision API, and then notify the rightful owner by email. Using Puppeteer, the app automates the process of extracting email addresses from a university directory.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Capture a picture of the found UCard.
+- Extract the student's name using Google Vision API.
+- Scrape email addresses from the university directory using Puppeteer.
+- Send emails to the detected student to inform them of their lost UCard.
+- Provide the user with options on whether they kept or left the card at a particular location.
 
-   ```bash
-    npx expo start
-   ```
+## Technologies Used
 
-In the output, you'll find options to open the app in a
+### Frontend (Mobile App)
+- **React Native**: For building the cross-platform mobile application.
+- **Expo**: To simplify development and deployment for Android and iOS.
+- **React Native Elements**: For reusable UI components.
+- **Google Vision API**: For Optical Character Recognition (OCR) to detect the name from the UCard image.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Backend
+- **Node.js** and **Express.js**: For setting up the server to handle image uploads and send emails.
+- **Multer**: For handling file uploads in Node.js.
+- **Nodemailer**: For sending email notifications to students.
+- **Puppeteer**: For scraping email addresses from the university directory.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Environment Management
+- **dotenv**: For managing sensitive credentials and API keys.
 
-## Get a fresh project
+## Installation
 
-When you're ready, run:
+### Prerequisites
+
+- **Node.js** and **npm** or **yarn** installed on your machine.
+- **Expo CLI** installed globally: `npm install -g expo-cli`.
+
+### Clone the Repository
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+$ git clone https://github.com/username/FoundU.git
+$ cd FoundU
