@@ -5,8 +5,9 @@ export class VisionService {
   private apiEndpoint: string;
 
   constructor() {
-    this.apiKey = 'AIzaSyBplRMIZbeaRDT2tDk27SZUsDAexQbAo6I'; 
-    this.apiEndpoint = 'https://vision.googleapis.com/v1/images:annotate';
+    //commented out API Keys 
+    //this.apiKey = ''; 
+    //this.apiEndpoint = 'https://vision.googleapis.com/v1/images:annotate';
   }
 
   async detectText(imageUri: string): Promise<string | null> {
