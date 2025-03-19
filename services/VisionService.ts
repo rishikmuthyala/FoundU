@@ -6,6 +6,7 @@ export class VisionService {
 
   constructor() {
     //commented out API Keys 
+    //deleted old api key
     //this.apiKey = ''; 
     //this.apiEndpoint = 'https://vision.googleapis.com/v1/images:annotate';
   }
